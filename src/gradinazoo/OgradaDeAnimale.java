@@ -15,17 +15,17 @@ public class OgradaDeAnimale {
     private void ascultaLeInOgrada() {
         for (int i = 0; i < animaleDinCurte.length; i++) {
 
-            System.out.println( animaleDinCurte[i] instanceof Vaca);
-              //  Pisica p = (Pisica)animaleDinCurte[i];
+            // System.out.println( animaleDinCurte[i] instanceof Vaca);
+            // Pisica p = (Pisica)animaleDinCurte[i];
 
-          //animaleDinCurte[i].noise();
+          animaleDinCurte[i].noise();
         }
     }
 
 
 
     public static void main(String[] args) {
-        OgradaDeAnimale ogd =null;
+        OgradaDeAnimale ogd = new OgradaDeAnimale();
         ogd.cumparAnimale();
 
 
